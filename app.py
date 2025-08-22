@@ -1,5 +1,3 @@
-from pickle import GLOBAL
-
 from flask import Flask, url_for, request, render_template
 import datetime
 
