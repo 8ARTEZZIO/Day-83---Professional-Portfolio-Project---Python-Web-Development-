@@ -4,10 +4,16 @@
 {{ super() }}
 {% endblock %}
 {% block content %}
-<div class="col-lg-7 p-3 p-lg-5 pt-lg-3"><h1 class="display-4 fw-bold lh-1 text-body-emphasis">Welcome to my website</h1>
-    <p class="lead">Curious what can achieve one college dropout in a matter of a few years? I'm leaving the answer for you. Have a look at my projects.</p>
-    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold ">Click Me!</button>
+    <div class="col-lg-7 p-3 p-lg-5 pt-lg-3"><h1 class="display-4 fw-bold lh-1 text-body-emphasis">Border hero with
+        cropped image and shadows</h1>
+        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
+            popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        </div>
     </div>
-</div>
+    <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg"><img class="rounded-lg-3" src="https://avatars.githubusercontent.com/u/159695537?v=4"
+                                                                         alt="" width="400"></div>
 {% endblock %}

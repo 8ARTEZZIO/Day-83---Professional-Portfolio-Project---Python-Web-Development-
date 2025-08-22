@@ -1,0 +1,44 @@
+body {
+    background-color: #111;
+    color: #eee;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff9800;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1700112758338-6e4cdd82de90?w=1400&auto=format&fit=crop&q=60');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header, footer {
+    background: rgba(0, 0, 0, 0.6);  /* semi-transparent */
+    backdrop-filter: blur(10px);     /* the blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border-radius: 8px;              /* optional rounded corners */
+}
+
+content {
+    background: rgba(0, 0, 0, 0.6);  /* semi-transparent */
+    backdrop-filter: blur(10px);     /* the blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border-radius: 8px;              /* optional rounded corners */
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+}
+
